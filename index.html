@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <br>
+    <h1>Calculator</h1>
+    <h2>By RT</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>You can copy if you want 😉</p>
+    <div class="big-container">
+
+        <div class="container">
+
+
+            <div class="input">
+                <input type="display" readonly name="" id="input">
+            </div>
+            
+            <div class="btns">
+                <button id="C" onclick="clearText()">C</button>
+                <button id="del" onclick="delLastChar()">DEL</button>
+                <button id="pourcent" onclick="calcPourcent()">%</button>
+                <button id="plus" onclick="appendText('+')">+</button>
+                <br>
+                <button id="7" onclick="appendText('7')">7</button>
+                <button id="8" onclick="appendText('8')">8</button>
+                <button id="9" onclick="appendText('9')">9</button>
+                <button id="moins" onclick="appendText('-')">-</button>
+                <br>
+                <button id="4" onclick="appendText('4')">4</button>
+                <button id="5" onclick="appendText('5')">5</button>
+                <button id="6" onclick="appendText('6')">6</button>
+                <button id="fois" onclick="appendText('*')">x</button>
+                <br>
+                <button id="1" onclick="appendText('1')">1</button>
+                <button id="2" onclick="appendText('2')">2</button>
+                <button id="3" onclick="appendText('3')">3</button>  
+                <button id="divise" onclick="appendText('/')">÷</button>
+                <br>
+                <button id="0" onclick="appendText('0')">0</button>
+                <button id="point" onclick="appendText('.')">.</button>
+                
+                <button id="egal" onclick="calculate()">=</button>    
+                
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+<script src="index.js"></script>
+</html>
